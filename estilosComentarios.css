@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Hacemos que el body de la pagina se alinee en el centro*/
+.cuerpo{
+    margin:auto;
+    width:50%;
+    }
+
+/*El color de fondo de la pagina es blanco*/
+body{background:white;}
+
+/*La letra será por defecto de un gris claro*/
+p{color:grey;}
+
+/*Margenes por defecto*/
+*{
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    padding: 0;
+}
+
+/*Header*/
+header{
+    width: 1400px;
+    margin-top: 10px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+/*Estilos del título*/
+.titulo{
+	text-align:center;
+	width:1000px;
+	left:200px;
+	}
+
+
+/*Posición de la barra principal*/
+nav{
+    top: -10%;
+    position: absolute;
+    right: 400;
+    margin-top: 1%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1%;
+    max-width: 3000px;
+    width: 65%;
+	}
+
+/*Le quitamos los puntos a los elementos de la tabla*/
+nav ul{
+	list-style:none;
+}
+
+/*Esbozamos el cuerpo de la tabla*/
+nav > ul{
+    display: table;
+    overflow: fidden;
+    width: 100%;
+    background: black;
+    position: relative;
+}
+
+/*Hacemos que la tabla se despliegue de forma horizontal en vez de arriba-abajo*/
+nav > ul li{
+	display:table-cell;
+}
+
+/*Aplicamos estilos a la tabla*/
+nav > ul li a{
+    color: white;
+    display: block;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav > ul > li > a span {
+    background:#174459;
+    display:block;
+    height:100%;
+    width:100%;
+    left:0;
+    position:absolute;
+    top:-55px;
+     -webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+/*Dimensiones del icon que se despliega de la barra*/
+.trans > a span .icon{
+    display:block;
+    line-height:60px;
+   	}
+
+/*Al pasar el raton por encima se inicia la animacion*/
+.trans > a:hover > span{
+    top:0;
+    }
+
+/*Se le asocia a cada apartado un color*/
+nav ul li a .color1{
+    background:#0e5061;
+    }	
+     nav ul li a .color2{
+    background:#5da5a2;
+    }	
+     nav ul li a .color3{
+    background:#f25724;
+    }	
+     nav ul li a .color4{
+    background:#174459;
+    }
+
