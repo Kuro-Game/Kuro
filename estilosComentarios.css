@@ -7,11 +7,12 @@
     width:50%;
     }
 
-/*El color de fondo de la pagina es blanco*/
-body{background:white;}
+/*El color de fondo de la pagina es cian*/
+body{background:#E6FFFF;
+text-align: justify}
 
-/*La letra será por defecto de un gris claro*/
-p{color:grey;}
+/*Letra por defecto*/
+p{color:#0D0C6F;}
 
 /*Margenes por defecto*/
 *{

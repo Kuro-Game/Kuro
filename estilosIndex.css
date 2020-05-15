@@ -7,11 +7,12 @@
     width:50%;
     }
 
-/*El color de fondo de la pagina es blanco*/
-body{background:white;}
+/*El color de fondo de la pagina es cian*/
+body{background:#E6FFFF;
+text-align: justify}
 
-/*La letra será por defecto de un gris claro*/
-p{color:grey;}
+/*Letra por defecto*/
+p{color:#0D0C6F;}
 
 /*Margenes por defecto*/
 *{
@@ -130,29 +131,14 @@ nav ul li a .color1{
     background:#174459;
     }
 
-/*Estilo de la seccion de descripcion e introduccion del juego*/
-.descripcion{
-    margin: 15px;
-    width: 500px;
-    height: 100%;
-    padding: 10px;
-    background: lightblue;
-    border: 1px solid black;
-	}
+
 
 /*Estilo de la seccion de arwork*/
-.artwork{
+.article{
     margin: 15px;
-    width: 500px;
+    width: 850px;
     height: 100%;
     padding: 10px;
-    background: lightblue;
+    background: white;
     border: 1px solid black;
 	}
-
-/*Estilo de la seccion que contiene el video*/
-.video{
-    position: relative;
-    left: 600px;
-    top: -833px;
-}
