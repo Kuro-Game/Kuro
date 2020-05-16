@@ -142,3 +142,12 @@ nav ul li a .color1{
     background: white;
     border: 1px solid black;
 	}
+
+.article1{
+    margin: 15px;
+    width: 850px;
+    height: 100%;
+    padding: 10px;
+    background: #F9BCBE;
+    border: 1px solid black;
+	}
